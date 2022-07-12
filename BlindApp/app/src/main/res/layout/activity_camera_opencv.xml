@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <org.opencv.android.JavaCameraView
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:id="@+id/camera_surface"/>
+
+    <TextView
+        android:id="@+id/outputtext"
+        android:layout_width="116dp"
+        android:layout_height="36dp"
+        android:text=""
+        android:textColor="#CF0F0F" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center_horizontal"
+        android:text="Switch" />
+
+</FrameLayout>
